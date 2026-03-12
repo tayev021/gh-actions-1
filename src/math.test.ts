@@ -33,7 +33,7 @@ describe('Testing maths functions', () => {
       expect(factorial(1)).toBe(1);
     });
     test('factorial(4)', () => {
-      expect(factorial(3)).toBe(24);
+      expect(factorial(4)).toBe(24);
     });
   });
 });
