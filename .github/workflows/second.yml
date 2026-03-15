@@ -13,7 +13,7 @@ jobs:
     needs: [hello]
     steps:
       - name: Checkout
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
       - name: Install Dependencies
         run: npm ci
       - name: Run Linting
@@ -23,7 +23,7 @@ jobs:
     needs: [hello]
     steps:
       - name: Checkout
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
       - name: Install Dependencies
         run: npm ci
       - name: Run Tests
